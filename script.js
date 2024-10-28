@@ -20,7 +20,7 @@ setTimeout(() => {
     } else {
         console.log("Video element not found");
     }
-}, 2000);
+}, 1000);
     } else {
         alert("Please enter the correct name");
     }
