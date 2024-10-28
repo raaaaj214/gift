@@ -9,11 +9,13 @@ let heading2 = document.querySelector(".heading2");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
     console.log("Form submitted"); // Log form submission
-    if (input.value.toLowerCase() === "slowpoke" || input.value.toLowerCase() === "ilyara") {
+    if (input.value.toLowerCase() === "slowpoke" || input.value.toLowerCase() === "ilyara" || input.value.toLowerCase() === "anuja") {
         if (input.value.toLowerCase() === "slowpoke") {
             heading2.innerHTML = "HELLO SLOWPOKE";
         } else if (input.value.toLowerCase() === "ilyara") {
             heading2.innerHTML = "HELLO";
+        }else if (input.value.toLowerCase() === "anuja") {
+            heading2.innerHTML = "HELLO ANUJA";
         }
         div1.style.display = "none";
         div2.style.display = "flex";
