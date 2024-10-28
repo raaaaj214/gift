@@ -8,7 +8,7 @@ let div2 = document.querySelector(".div2");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
     console.log("Form submitted"); // Log form submission
-    if (input.value.toLowerCase() === "slowpoke") {
+    if (input.value.toLowerCase() === "slowpoke" || input.value.toLowerCase() === "ilyara") {
         div1.style.display = "none";
         div2.style.display = "flex";
         
